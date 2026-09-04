@@ -91,7 +91,7 @@ HTML = """
 <script>
 
 let progress = 0;
-const totalTime = 40000;
+const totalTime = 20000;
 const stepTime = totalTime / 100;
 
 const interval = setInterval(() => {
