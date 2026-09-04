@@ -76,12 +76,21 @@ HTML = """
         <h1>⚠️ Simulación de Phishing</h1>
 
         <p>
-            Has interactuado con un enlace que podría haber sido utilizado
-            para comprometer información corporativa.
+            Has hecho clic en un enlace potencialmente malicioso.
+            En un ataque real un actor malicioso podría haber intentado obtener credenciales corporativas o información sensible.
         </p>
+        
+        <h3>¿Qué debes revisar antes de hacer clic?</h3>
 
+        <ul style="text-align:left;">
+            <li>Remitente del correo.</li>
+            <li>Dominio del enlace.</li>
+            <li>Solicitudes inesperadas.</li>
+            <li>Mensajes con urgencia excesiva.</li>
+        </ul>
+        
         <p>
-            Esta actividad forma parte de una campaña de concientización de seguridad.
+            Esta actividad forma parte de la Campaña de Concientización en Seguridad liderada por el área de TI de SYNTEC
         </p>
 
     </div>
@@ -91,7 +100,7 @@ HTML = """
 <script>
 
 let progress = 0;
-const totalTime = 20000;
+const totalTime = 10000;
 const stepTime = totalTime / 100;
 
 const interval = setInterval(() => {
